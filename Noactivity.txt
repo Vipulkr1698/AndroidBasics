@@ -1,0 +1,8 @@
+//remove title bar
+
+in style : No activityBar
+in java before set contentView:
+
+requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        setContentView(R.layout.activity_main);
