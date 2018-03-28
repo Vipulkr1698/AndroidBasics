@@ -1,3 +1,4 @@
+//splash screen code
 package com.kr.vipul.genymotiontest;
 
 import android.content.Intent;
